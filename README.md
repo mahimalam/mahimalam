@@ -22,11 +22,11 @@ I'm actively working toward a career as an AI engineer — building projects tha
 
 | Project | What it does | Stack |
 |---|---|---|
-| [environmental-consensus-oracle](https://github.com/mahimalam/environmental-consensus-oracle) | LLM pipeline that scores environmental alerts into calibrated probability vectors | Python, LLM APIs, asyncio |
-| [asynchronous-vector-coordinator-EVC](https://github.com/mahimalam/asynchronous-vector-coordinator-EVC) | Central async orchestrator — circuit breakers, priority queuing, multi-source consensus | Python, asyncio, SQLite |
-| [event-driven-resolver](https://github.com/mahimalam/event-driven-resolver) | Bayesian event resolver wired to NOAA weather alerts with latency-bounded execution | Python, asyncio, aiohttp |
-| [topological-convergence-router](https://github.com/mahimalam/topological-convergence-router) | Multi-node scanner using Open-Meteo ensemble forecasts to detect statistical divergence | Python, asyncio |
-| [async-state-synchronizer](https://github.com/mahimalam/async-state-synchronizer) | Distributed state daemon with Bayesian drift detection and pre-compiled payload pools | Python, asyncio |
+| [llm-alert-pipeline](https://github.com/mahimalam/llm-alert-pipeline) | LLM pipeline that scores environmental alerts into calibrated probability vectors | Python, LLM APIs, asyncio |
+| [async-event-coordinator](https://github.com/mahimalam/async-event-coordinator) | Central async orchestrator — circuit breakers, priority queuing, multi-source consensus | Python, asyncio, SQLite |
+| [weather-alert-resolver](https://github.com/mahimalam/weather-alert-resolver) | Bayesian event resolver wired to NOAA weather alerts with latency-bounded execution | Python, asyncio, aiohttp |
+| [ensemble-forecast-scanner](https://github.com/mahimalam/ensemble-forecast-scanner) | Multi-node scanner using Open-Meteo ensemble forecasts to detect statistical divergence | Python, asyncio |
+| [distributed-state-daemon](https://github.com/mahimalam/distributed-state-daemon) | Distributed state daemon with Bayesian drift detection and pre-compiled payload pools | Python, asyncio |
 | [high-frequency-stream-processor](https://github.com/mahimalam/high-frequency-stream-processor) | WebSocket stream processor — HMAC auth, rolling statistics, 3σ anomaly detection | TypeScript, Node.js |
 
 ---
