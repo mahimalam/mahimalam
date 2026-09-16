@@ -18,10 +18,10 @@
 
 I build robust, production-grade software at the convergence of **autonomous AI engineering**, **cognitive memory architectures**, and **high-throughput distributed systems**.
 
-- 🤖 **Autonomous AI Systems & Agents**: Building supervised agent runtimes, grounded tool-execution loops, and multi-model routing across local and cloud providers.
-- 🧠 **Cognitive Memory & Vector Architectures**: Designing persistent "Second Brain" systems utilizing vector databases (LanceDB, pgvector), knowledge graphs, and write-ahead log (WAL) crash resilience.
-- 🏢 **Enterprise Multi-Tenancy**: Implementing cryptographic tenant isolation with PostgreSQL Row-Level Security (RLS), resilient queue orchestration (BullMQ/Redis), and webhook durability.
-- ⚡ **Low-Latency Distributed Engines**: Engineering async event pipelines in Python and TypeScript engineered for bounded latency, circuit breaking, and high availability.
+- **Autonomous AI Systems & Agents**: Building supervised agent runtimes, grounded tool-execution loops, and multi-model routing across local and cloud providers.
+- **Cognitive Memory & Vector Architectures**: Designing persistent "Second Brain" systems utilizing vector databases (LanceDB, pgvector), knowledge graphs, and write-ahead log (WAL) crash resilience.
+- **Enterprise Multi-Tenancy**: Implementing cryptographic tenant isolation with PostgreSQL Row-Level Security (RLS), resilient queue orchestration (BullMQ/Redis), and webhook durability.
+- **Low-Latency Distributed Engines**: Engineering async event pipelines in Python and TypeScript engineered for bounded latency, circuit breaking, and high availability.
 
 ---
 
