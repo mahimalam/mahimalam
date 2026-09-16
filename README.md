@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Hi, I'm Mahim Alam 👋</h1>
+  <h1>Hi, I'm Mahim Alam</h1>
   <p><b>AI Systems Engineer & Full-Stack Systems Builder</b></p>
   <p>
     <i>Architecting autonomous multi-agent systems, cognitive memory engines, and production-grade real-time infrastructure.</i>
@@ -14,7 +14,7 @@
 
 ---
 
-### 🚀 About Me
+### About Me
 
 I build robust, production-grade software at the convergence of **autonomous AI engineering**, **cognitive memory architectures**, and **high-throughput distributed systems**.
 
@@ -25,7 +25,7 @@ I build robust, production-grade software at the convergence of **autonomous AI 
 
 ---
 
-### 🌟 Featured Projects
+### Featured Projects
 
 #### 1. [All_in_One — Enterprise Agentic Commerce Platform](https://github.com/mahimalam/All_in_One)
 > **Multi-tenant conversational commerce platform uniting social messaging channels and marketplaces with an autonomous, grounded AI sales agent.**
@@ -53,7 +53,7 @@ I build robust, production-grade software at the convergence of **autonomous AI 
 
 ---
 
-### 🔬 Distributed Systems & Research Pipelines
+### Distributed Systems & Research Pipelines
 
 | Project | Description | Stack |
 |:---|:---|:---|
@@ -66,7 +66,7 @@ I build robust, production-grade software at the convergence of **autonomous AI 
 
 ---
 
-### 🛠️ Technical Arsenal
+### Technical Arsenal
 
 <div align="center">
 
@@ -82,7 +82,7 @@ I build robust, production-grade software at the convergence of **autonomous AI 
 
 ---
 
-### 📊 GitHub Activity
+### GitHub Activity
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=mahimalam&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Mahim's GitHub Stats" />
