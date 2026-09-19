@@ -1,8 +1,8 @@
 <div align="center">
-  <h1>Hi, I'm Mahim Alam</h1>
+  <h1>Hi, I'm Md. Mahim Alam</h1>
   <p><b>AI Systems Engineer & Full-Stack Systems Builder</b></p>
   <p>
-    <i>Architecting autonomous multi-agent systems, cognitive memory engines, and production-grade real-time infrastructure.</i>
+    <i>Solving my own problems and building tools that might help others in the process.</i>
   </p>
 
   <p>
