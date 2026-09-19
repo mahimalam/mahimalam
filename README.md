@@ -85,8 +85,12 @@ I build robust, production-grade software at the convergence of **autonomous AI 
 ### GitHub Activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mahimalam&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Mahim's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mahimalam&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top Languages" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=mahimalam&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Mahim's GitHub Stats" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=mahimalam&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top Languages" />
+</div>
+<br/>
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=mahimalam&theme=tokyonight&hide_border=true&border_radius=4.5&background=0d1117" alt="Mahim's GitHub Streak" />
 </div>
 
 ---
