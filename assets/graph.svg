@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="480" viewBox="0 0 840 480" role="img" aria-labelledby="t d" font-family="'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">
+  <title id="t">Cognitive Memory Graph - Md. Mahim Alam</title>
+  <desc id="d">A knowledge graph that recalls each flagship system in turn (All_in_One, CodeMate, Void, WC26 Engine) and lights up the technologies it runs on, with a language mix bar below.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="1" y2="1"><stop offset="0%" stop-color="#0a0f1e"/><stop offset="1" stop-color="#0d1530"/></linearGradient>
+    <linearGradient id="nm" x1="0%" y1="0%" x2="1" y2="0"><stop offset="0%" stop-color="#ffffff"/><stop offset="1" stop-color="#a9c1ff"/></linearGradient>
+    <radialGradient id="glow" cx="560" cy="220" r="320" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#22357a" stop-opacity="0.55"/><stop offset="1" stop-color="#22357a" stop-opacity="0"/></radialGradient>
+    <radialGradient id="halo"><stop offset="0" stop-color="#ff9d6c" stop-opacity="0.6"/><stop offset="1" stop-color="#ff9d6c" stop-opacity="0"/></radialGradient>
+    <clipPath id="barClip"><rect x="36" y="436" width="0" height="8" rx="4"><animate attributeName="width" from="0" to="768" dur="1.4s" begin="0.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/></rect></clipPath>
+    <style>
+      .d,.g,.h,.c,.ring{opacity:0}
+      .d{fill:none;stroke:#ff9d6c;stroke-width:1.8;stroke-dasharray:1 1;stroke-dashoffset:1;animation:kd 16s linear infinite backwards}
+      .g{animation:kg 16s linear infinite backwards}
+      .h{animation:kh 16s linear infinite backwards}
+      .c{animation:kc 16s linear infinite backwards}
+      .ring{transform-box:fill-box;transform-origin:center;animation:kr 16s linear infinite backwards}
+      .s2{animation-delay:4s}.s3{animation-delay:8s}.s4{animation-delay:12s}
+      @keyframes kd{0%,3%{opacity:1;stroke-dashoffset:1}10%,22%{opacity:1;stroke-dashoffset:0}26%,100%{opacity:0;stroke-dashoffset:0}}
+      @keyframes kg{0%,8%{opacity:0}12%,22%{opacity:1}26%,100%{opacity:0}}
+      @keyframes kh{0%,22%{opacity:0}2%,20%{opacity:1}}
+      @keyframes kc{0%,8%{opacity:0}12%,22%{opacity:1}26%,100%{opacity:0}}
+      @keyframes kr{0%,100%{opacity:0;transform:scale(1)}1%{opacity:.8;transform:scale(1)}9%{opacity:0;transform:scale(6.5)}}
+      @media (prefers-reduced-motion:reduce){
+        .d,.g,.h,.c,.ring{animation:none}
+        .d{stroke-dashoffset:0;opacity:.16}.g,.h,.c,.ring{opacity:0}.c.s1,.h.s1{opacity:1}
+      }
+      .mono { font-family: ui-monospace, "SFMono-Regular", Consolas, Menlo, monospace; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0.5" y="0.5" width="839" height="479" rx="14" fill="url(#bg)" stroke="#1c2848"/>
+  <rect x="0.5" y="0.5" width="839" height="479" rx="14" fill="url(#glow)"/>
+  <g fill="none" stroke="#141f44"><circle cx="560" cy="220" r="120"/><circle cx="560" cy="220" r="205"/><circle cx="560" cy="220" r="295"/></g>
+
+  <!-- Top-Left: Cognitive Memory & System Telemetry Header (Option 1) -->
+  <text x="36" y="68" font-size="28" font-weight="800" fill="url(#nm)" letter-spacing="0.5">COGNITIVE</text>
+  <text x="36" y="100" font-size="24" font-weight="800" fill="url(#nm)" letter-spacing="0.5">MEMORY GRAPH</text>
+  <text x="36" y="124" font-size="13" font-weight="600" fill="#ff9d6c" letter-spacing="0.5">Dynamic Synaptic Telemetry</text>
+
+  <!-- Telemetry Metadata Readout -->
+  <g transform="translate(36, 142)">
+    <!-- Status Indicator Pill -->
+    <rect x="0" y="0" width="138" height="20" rx="10" fill="#0d1f2d" stroke="#238636" stroke-width="1"/>
+    <circle cx="10" cy="10" r="3.5" fill="#38bdae"/>
+    <text class="mono" x="20" y="13.5" font-size="10" font-weight="700" fill="#38bdae" letter-spacing="0.5">ACTIVE RECALL</text>
+
+    <!-- Telemetry Specs -->
+    <g font-size="11.5" fill="#8fa0c8" transform="translate(0, 36)">
+      <text x="0" y="0"><tspan fill="#58a6ff" class="mono">NODES :</tspan> 13 Active Engines</text>
+      <text x="0" y="18"><tspan fill="#58a6ff" class="mono">MEMORY:</tspan> LanceDB + WAL</text>
+      <text x="0" y="36"><tspan fill="#58a6ff" class="mono">ACCESS:</tspan> Vector Graph Subgraph</text>
+    </g>
+  </g>
+
+  <!-- Dynamic Recall Section: Always One System on Screen -->
+  <g class="c s1"><text x="36" y="278" font-size="12" fill="#8fa0c8">recalling</text><text x="36" y="306" font-size="24" font-weight="700" fill="#ffb996">All_in_One</text><text x="36" y="330" font-size="13.5" fill="#a9b8de">TypeScript · React</text><text x="36" y="350" font-size="13.5" fill="#a9b8de">PostgreSQL · Redis</text></g>
+  <g class="c s2"><text x="36" y="278" font-size="12" fill="#8fa0c8">recalling</text><text x="36" y="306" font-size="24" font-weight="700" fill="#ffb996">CodeMate</text><text x="36" y="330" font-size="13.5" fill="#a9b8de">TypeScript · React · Python</text><text x="36" y="350" font-size="13.5" fill="#a9b8de">FastAPI · SQLite</text></g>
+  <g class="c s3"><text x="36" y="278" font-size="12" fill="#8fa0c8">recalling</text><text x="36" y="306" font-size="24" font-weight="700" fill="#ffb996">Void</text><text x="36" y="330" font-size="13.5" fill="#a9b8de">Python · FastAPI</text><text x="36" y="350" font-size="13.5" fill="#a9b8de">LanceDB</text></g>
+  <g class="c s4"><text x="36" y="278" font-size="12" fill="#8fa0c8">recalling</text><text x="36" y="306" font-size="24" font-weight="700" fill="#ffb996">WC26 Engine</text><text x="36" y="330" font-size="13.5" fill="#a9b8de">Python · FastAPI</text><text x="36" y="350" font-size="13.5" fill="#a9b8de">React · Astro</text></g>
+
+  <!-- Which of the Four Systems is Active Indicator -->
+  <g fill="#24335f"><circle cx="40" cy="380" r="3.5"/><circle cx="56" cy="380" r="3.5"/><circle cx="72" cy="380" r="3.5"/><circle cx="88" cy="380" r="3.5"/></g>
+  <g fill="#ff9d6c"><circle class="h s1" cx="40" cy="380" r="3.5"/><circle class="h s2" cx="56" cy="380" r="3.5"/><circle class="h s3" cx="72" cy="380" r="3.5"/><circle class="h s4" cx="88" cy="380" r="3.5"/></g>
+
+  <!-- Resting Graph Edges -->
+  <path fill="none" stroke="#1e2b55" stroke-width="1" d="M420 120L560 60M420 120L560 140M420 120L340 205M420 120L335 120M700 120L560 60M700 120L560 140M700 120L560 215M700 120L560 290M700 120L795 120M420 320L560 215M420 320L560 290M420 320L335 320M700 320L560 215M700 320L560 290M700 320L560 140M700 320L795 320"/>
+
+  <!-- Halo Glows -->
+  <g fill="url(#halo)">
+    <circle class="g s1" cx="560" cy="60" r="17"/><circle class="g s1" cx="560" cy="140" r="17"/><circle class="g s1" cx="340" cy="205" r="17"/><circle class="g s1" cx="335" cy="120" r="17"/>
+    <circle class="g s2" cx="560" cy="60" r="17"/><circle class="g s2" cx="560" cy="140" r="17"/><circle class="g s2" cx="560" cy="215" r="17"/><circle class="g s2" cx="560" cy="290" r="17"/><circle class="g s2" cx="795" cy="120" r="17"/>
+    <circle class="g s3" cx="560" cy="215" r="17"/><circle class="g s3" cx="560" cy="290" r="17"/><circle class="g s3" cx="335" cy="320" r="17"/>
+    <circle class="g s4" cx="560" cy="215" r="17"/><circle class="g s4" cx="560" cy="290" r="17"/><circle class="g s4" cx="560" cy="140" r="17"/><circle class="g s4" cx="795" cy="320" r="17"/>
+    <circle class="h s1" cx="420" cy="120" r="34"/><circle class="h s2" cx="700" cy="120" r="34"/><circle class="h s3" cx="420" cy="320" r="34"/><circle class="h s4" cx="700" cy="320" r="34"/>
+  </g>
+
+  <!-- Activation Pulse Edges -->
+  <line class="d s1" pathLength="1" x1="420" y1="120" x2="560" y2="60"/><line class="d s1" pathLength="1" x1="420" y1="120" x2="560" y2="140"/><line class="d s1" pathLength="1" x1="420" y1="120" x2="340" y2="205"/><line class="d s1" pathLength="1" x1="420" y1="120" x2="335" y2="120"/>
+  <line class="d s2" pathLength="1" x1="700" y1="120" x2="560" y2="60"/><line class="d s2" pathLength="1" x1="700" y1="120" x2="560" y2="140"/><line class="d s2" pathLength="1" x1="700" y1="120" x2="560" y2="215"/><line class="d s2" pathLength="1" x1="700" y1="120" x2="560" y2="290"/><line class="d s2" pathLength="1" x1="700" y1="120" x2="795" y2="120"/>
+  <line class="d s3" pathLength="1" x1="420" y1="320" x2="560" y2="215"/><line class="d s3" pathLength="1" x1="420" y1="320" x2="560" y2="290"/><line class="d s3" pathLength="1" x1="420" y1="320" x2="335" y2="320"/>
+  <line class="d s4" pathLength="1" x1="700" y1="320" x2="560" y2="215"/><line class="d s4" pathLength="1" x1="700" y1="320" x2="560" y2="290"/><line class="d s4" pathLength="1" x1="700" y1="320" x2="560" y2="140"/><line class="d s4" pathLength="1" x1="700" y1="320" x2="795" y2="320"/>
+
+  <!-- Ripple Animations -->
+  <g fill="none" stroke="#ff9d6c" stroke-width="1.5">
+    <circle class="ring s1" cx="420" cy="120" r="9" vector-effect="non-scaling-stroke"/><circle class="ring s2" cx="700" cy="120" r="9" vector-effect="non-scaling-stroke"/>
+    <circle class="ring s3" cx="420" cy="320" r="9" vector-effect="non-scaling-stroke"/><circle class="ring s4" cx="700" cy="320" r="9" vector-effect="non-scaling-stroke"/>
+  </g>
+
+  <!-- Constellation Nodes -->
+  <g fill="#7aa2ff">
+    <circle cx="560" cy="60" r="5"/><circle cx="560" cy="140" r="5"/><circle cx="560" cy="215" r="5"/><circle cx="560" cy="290" r="5"/>
+    <circle cx="335" cy="120" r="5"/><circle cx="340" cy="205" r="5"/><circle cx="335" cy="320" r="5"/><circle cx="795" cy="120" r="5"/><circle cx="795" cy="320" r="5"/>
+  </g>
+  <g fill="#ff9d6c"><circle cx="420" cy="120" r="10"/><circle cx="700" cy="120" r="10"/><circle cx="420" cy="320" r="10"/><circle cx="700" cy="320" r="10"/></g>
+
+  <!-- Node & System Labels -->
+  <g stroke="#0b1226" stroke-width="4" stroke-linejoin="round" paint-order="stroke">
+    <g font-size="12.5" fill="#a9b8de" text-anchor="middle">
+      <text x="560" y="44">TypeScript</text><text x="560" y="124">React</text><text x="560" y="199">Python</text><text x="560" y="274">FastAPI</text>
+      <text x="335" y="143">Redis</text><text x="340" y="227">PostgreSQL</text><text x="335" y="343">LanceDB</text>
+      <text x="795" y="143">SQLite</text><text x="795" y="343">Astro</text>
+    </g>
+    <g font-size="15" font-weight="700" fill="#ffd2bb">
+      <text x="432" y="86" text-anchor="end">All_in_One</text><text x="688" y="86">CodeMate</text>
+      <text x="420" y="358" text-anchor="middle">Void</text><text x="700" y="358" text-anchor="middle">WC26 Engine</text>
+    </g>
+    <g font-size="12" fill="#8fa0c8">
+      <text x="432" y="102" text-anchor="end">agentic commerce</text><text x="688" y="102">AI coding IDE</text>
+      <text x="420" y="375" text-anchor="middle">voice second brain</text><text x="700" y="375" text-anchor="middle">match forecasting</text>
+    </g>
+  </g>
+
+  <!-- Bottom Language Mix Bar -->
+  <text x="36" y="426" font-size="12" fill="#8fa0c8">Language mix</text>
+  <rect x="36" y="436" width="768" height="8" rx="4" fill="#141d3a"/>
+  <g clip-path="url(#barClip)">
+    <rect x="36" y="436" width="423.9" height="8" fill="#3572A5"/><rect x="459.9" y="436" width="217" height="8" fill="#3178c6"/>
+    <rect x="676.9" y="436" width="64.8" height="8" fill="#ff5a03"/><rect x="741.7" y="436" width="47.7" height="8" fill="#f1e05a"/><rect x="789.4" y="436" width="14.7" height="8" fill="#663399"/>
+  </g>
+  <g font-size="12.5" fill="#a9b8de">
+    <circle cx="40" cy="464" r="4" fill="#3572A5"/><text x="50" y="468">Python 55.19%</text>
+    <circle cx="190" cy="464" r="4" fill="#3178c6"/><text x="200" y="468">TypeScript 28.25%</text>
+    <circle cx="370" cy="464" r="4" fill="#ff5a03"/><text x="380" y="468">Astro 8.44%</text>
+    <circle cx="480" cy="464" r="4" fill="#f1e05a"/><text x="490" y="468">JavaScript 6.21%</text>
+    <circle cx="620" cy="464" r="4" fill="#663399"/><text x="630" y="468">CSS 1.91%</text>
+  </g>
+</svg>

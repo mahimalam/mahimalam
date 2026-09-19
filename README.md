@@ -14,6 +14,12 @@
 
 ---
 
+<div align="center">
+  <img src="assets/graph.svg" alt="Cognitive Memory Graph - Md. Mahim Alam" width="100%" />
+</div>
+
+---
+
 ### About Me
 
 I build robust, production-grade software at the convergence of **autonomous AI engineering**, **cognitive memory architectures**, and **high-throughput distributed systems**.
@@ -41,9 +47,9 @@ I build robust, production-grade software at the convergence of **autonomous AI 
 
 #### 3. [Void — Voice-Activated AI Assistant & Second Brain](https://github.com/mahimalam/Void)
 > **Always-listening desktop AI voice assistant with an autonomous cognitive memory engine and desktop automation.**
-- **Stack**: `Python` · `LanceDB` · `FastAPI` · `Speech & Audio Pipelines` · `Knowledge Graph`
+- **Stack**: `Python 3.11` · `LanceDB` · `FastAPI` · `OpenWakeWord` · `Silero VAD` · `Deepgram / Whisper` · `Electron HUD`
 - Deep persistent Second Brain using semantic vector retrieval and knowledge graph activation to retain context across sessions with zero memory loss.
-- Zero paid subscription requirements: supports high-performance local and free-tier cloud model execution.
+- Sub-200ms audio pipeline with Acoustic Echo Cancellation (AEC), custom wake word detection, and zero paid subscription requirements.
 
 #### 4. [FIFA World Cup 2026 Forecasting & Analytics Engine](https://github.com/mahimalam/llm-sports-forecasting-engine)
 > **High-performance sports forecasting engine with quantitative Poisson models, real-time match tracking, and Telegram Mini-App (TMA).**
@@ -72,25 +78,12 @@ I build robust, production-grade software at the convergence of **autonomous AI 
 
 | Domain | Technologies & Tools |
 |:---|:---|
-| **AI & Agents** | Autonomous Agents · Multi-Agent Orchestration · RAG & Vector Search · Prompt Engineering · Model Routing (Ollama, Claude, OpenAI, Gemini) |
+| **AI Systems & Agents** | Autonomous Agents · Multi-Agent Orchestration · RAG & Vector Search · Model Routing (Ollama, Claude, OpenAI, Gemini) |
 | **Languages** | Python · TypeScript · JavaScript · SQL · Bash · HTML/CSS |
 | **Frameworks & Runtimes** | FastAPI · Next.js · Node.js · Astro · React · Electron · aiohttp |
 | **Databases & Queues** | PostgreSQL (RLS, pgvector) · LanceDB · Redis (BullMQ) · SQLite (WAL mode) · Supabase |
-| **Infrastructure & DevOps** | Linux · Docker · Bubblewrap Sandboxing · Git & GitHub Actions CI/CD · Cloudflare · Nginx |
+| **Infrastructure & Security** | Linux · Docker · Bubblewrap Sandboxing · Git & GitHub Actions CI/CD · Cloudflare · Nginx |
 
-</div>
-
----
-
-### GitHub Activity
-
-<div align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=mahimalam&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Mahim's GitHub Stats" />
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=mahimalam&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top Languages" />
-</div>
-<br/>
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=mahimalam&theme=tokyonight&hide_border=true&border_radius=4.5&background=0d1117" alt="Mahim's GitHub Streak" />
 </div>
 
 ---
